@@ -1,0 +1,1381 @@
+(node:297531) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.location (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:893:15)
+    at ServerResponse.redirect (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:931:18)
+    at /home/teache13/exjs_main/app_main.js:1517:36
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:297531) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:297531) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:213:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:300172) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.location (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:893:15)
+    at ServerResponse.redirect (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:931:18)
+    at /home/teache13/exjs_main/app_main.js:1517:36
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:300172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:300172) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: Failed to lookup view "play_finish/integer_simplify_expression" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1254:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1431:20)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1218:43)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1218:43)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1218:43)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:213:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:80178) UnhandledPromiseRejectionWarning: Error: Invalid login: 535 Incorrect authentication data
+    at SMTPConnection._formatError (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1536:34)
+    at SMTPConnection.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:540:26)
+    at SMTPConnection._processResponse (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at TLSSocket.Readable.push (internal/streams/readable.js:206:10)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80178) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:80178) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1278:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1278:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+URIError: Failed to decode param '%3C%20%=ref'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:148:15)
+    at matchLayer (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:580:18)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:220:15)
+    at urlencodedParser (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:323:13)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:341:12)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1278:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1278:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:213:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+Error: Failed to lookup view "play_finish/money_mixed_chall" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1380:20)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+Error: Failed to lookup view "play_finish/frac_sub_uncom_dom" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/frac_sub_uncom_dom" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/frac_sub_uncom_dom" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'expiryDate' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:900:59)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'expiryDate' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:900:59)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+Error: Failed to lookup view "play_finish/place_value_worth_1k_1m" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_convert_to_99999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1891:24)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+Error: Failed to lookup view "play_finish/frac_sub_uncom_dom" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/frac_add_sub_uncom_dom" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/round_to_10s_100s_easy" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/round_to_10s_100s_easy" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/round_to_10s_100s_easy" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/round_to_10s_100s_1000s_easy" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/compare_nums_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/expand_nums_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_99999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_10M" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/compare_nums_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/expand_nums_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/compare_nums_1k_10m" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/expand_nums_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_99999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_10M" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_99999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_summary_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/place_value_worth_to_999" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_10M" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+Error: Failed to lookup view "play_finish/num_from_words_to_10M" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1270:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1294:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:1165746) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:1523:56
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1165746) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1165746) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:1165772) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:1523:56
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1165772) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1165772) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1165772) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:1523:56
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(node:1165772) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:1165799) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:1523:56
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1165799) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1165799) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1447:20)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1447:20)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1447:20)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1294:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1294:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:1294:22)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+Error: Failed to lookup view "teacher/teacher_activities_menu" in views directory "/home/teache13/exjs_main/views"
+    at Function.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/response.js:1017:7)
+    at /home/teache13/exjs_main/app_main.js:1258:9
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:281:22
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:360:14)
+    at param (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/express/lib/router/index.js:371:14)
+(node:1246676) UnhandledPromiseRejectionWarning: Error: Can't send mail - all recipients were rejected: 550-The mail server could not deliver mail to russell@intraed.com.  The account
+550-or domain may not exist, they may be blacklisted, or missing the proper dns
+550 entries.
+    at SMTPConnection._formatError (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:784:19)
+    at SMTPConnection._actionRCPT (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1626:28)
+    at SMTPConnection.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1579:30)
+    at SMTPConnection._processResponse (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:947:20)
+    at SMTPConnection._onData (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/nodemailer/lib/smtp-connection/index.js:189:44)
+    at TLSSocket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at TLSSocket.Readable.push (internal/streams/readable.js:206:10)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1246676) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1246676) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:1362824) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:557:55
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1362824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1362824) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1362824) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:557:55
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(node:1362824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:1362824) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:557:55
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(node:1362824) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+(node:1364920) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:557:55
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1364920) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1364920) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1364920) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'split' of null
+    at /home/teache13/exjs_main/app_main.js:557:55
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(node:1364920) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property '0' of undefined
+    at Query.<anonymous> (/home/teache13/exjs_main/app_main.js:229:68)
+    at Query.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/mysql/lib/Connection.js:88:28)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+SocketClosedUnexpectedlyError: Socket closed unexpectedly
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:195:118)
+    at Object.onceWrapper (events.js:520:26)
+    at Socket.emit (events.js:400:28)
+    at TCP.<anonymous> (net.js:686:12)
+Emitted 'error' event on Commander instance at:
+    at RedisSocket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/index.js:395:14)
+    at RedisSocket.emit (events.js:400:28)
+    at RedisSocket._RedisSocket_onSocketError (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:218:10)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:195:107)
+    at Object.onceWrapper (events.js:520:26)
+    at Socket.emit (events.js:400:28)
+    at TCP.<anonymous> (net.js:686:12)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+SocketClosedUnexpectedlyError: Socket closed unexpectedly
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:195:118)
+    at Object.onceWrapper (events.js:520:26)
+    at Socket.emit (events.js:400:28)
+    at TCP.<anonymous> (net.js:686:12)
+Emitted 'error' event on Commander instance at:
+    at RedisSocket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/index.js:395:14)
+    at RedisSocket.emit (events.js:400:28)
+    at RedisSocket._RedisSocket_onSocketError (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:218:10)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:195:107)
+    at Object.onceWrapper (events.js:520:26)
+    at Socket.emit (events.js:400:28)
+    at TCP.<anonymous> (net.js:686:12)
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+SocketClosedUnexpectedlyError: Socket closed unexpectedly
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:195:118)
+    at Object.onceWrapper (events.js:520:26)
+    at Socket.emit (events.js:400:28)
+    at TCP.<anonymous> (net.js:686:12)
+Emitted 'error' event on Commander instance at:
+    at RedisSocket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/index.js:395:14)
+    at RedisSocket.emit (events.js:400:28)
+    at RedisSocket._RedisSocket_onSocketError (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:218:10)
+    at Socket.<anonymous> (/home/teache13/nodevenv/exjs_main/14/lib/node_modules/@redis/client/dist/lib/client/socket.js:195:107)
+    at Object.onceWrapper (events.js:520:26)
+    at Socket.emit (events.js:400:28)
+    at TCP.<anonymous> (net.js:686:12)

@@ -1,0 +1,23 @@
+{
+  "name": "exjs_main",
+  "version": "1.0.0",
+  "description": "exjs_main",
+  "main": "app_main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TXS",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "mysql-events": "0.0.11",
+    "node-fetch": "^3.2.6",
+    "nodemailer": "^6.7.4",
+    "redis": "^3.1.2",
+    "socket.io": "^4.5.1"
+  }
+}

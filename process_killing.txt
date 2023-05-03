@@ -1,0 +1,7 @@
+goto terminal
+
+type the command
+
+ps -cef
+
+kill process via its number.

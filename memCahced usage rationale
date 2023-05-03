@@ -1,0 +1,55 @@
+
+when a new game is 1st generated b the teacher, the following memCached keys will be generated and set for life time of 8 hours.
+
+1/ memC.set(gameCode+"_linked_users", linkedUsers)
+
+    linkedUsers = [];
+
+    this is to initially be empty, userRefs are appended onto it in the following form: userRef+'>'+user+'|'  eg:- abc123>Tom|xyz987>Joel|
+    
+    when called see how many userRefs are linked to the gameCode, it will be set through and the teacher browser will count the "|" and then ">"
+
+
+2/ memC.set(gameCode+"_game_status", gameStatus)
+
+    gameStatus = {"state":"paused:, "timeStamp": Date.now(), "round": 0, "maxGroupSize": 4, "currentGame": currentGame from teacher };
+    
+    state>>timeStamp>>round>>maxGroupSize>>currentGame      ### change to a string
+    
+    this is an object with key info stored for lookup.  
+    
+    it will need to be rewritten in this format each time it is updated, need to look into if just one value can be updated ????
+    
+
+3/ gameCode+"_user_results" = "";           userRef>>round>>score>>respTime>>user>>groupColour|
+
+    These are to be objects and are appended onto each seperated by "|".  
+    
+    As a new userResult comes in, it is appended to the string and demarkate via the "|".  
+    
+    The user_results object is in the form of = {"userRef":"abc123","timeStamp":16712345,"round":1,"score":8,"respTime":1921,"gameFile":"add_to_10","user":"Tom"}|
+    Note: the object string is to have a "|" at the end to demarkate the objects within the string.  
+    The entire string can be passed through to the browser where it can be split('|') and JSON.parse() in order to get assess the the object value.  
+    
+4/ gameCode+"_user_ranking" = {"userRef":"abc123","user":"Tom","round":1,"activity":"add_to_10","groupColour":"blue","groupPosition":2,"rank":15}|
+
+    userRef>>user>>round>>activity>>ranking>>score>>number_of_questions|
+
+5/ teacher_details
+
+    {"teacherID":pass_1.ref,"teacherName":pass_1.teacherName,"classPW":pass_1.classPW,"arrayOfStudents":pass_1.arrayOfStudents};
+    
+    [teacherID, teacherName, classPW, arrayOfStudents]
+
+################################################################################
+memcached references:
+
+https://github.com/3rd-Eden/memcached
+
+https://www.tutorialspoint.com/memcached/memcached_set_data.htm
+
+https://www.a2hosting.com/kb/installable-applications/optimization-and-configuration/using-memcached-on-managed-servers/
+
+https://dev.to/pankajkumar/how-to-implement-memcached-in-nodejs-application-105a
+
+
